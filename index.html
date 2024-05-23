@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web based 3D bar chart visualization - XReality (MSC) Computer Science</title>
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.1.0/d3.min.js"></script>
+</head>
+
+<body>
+    <a-scene>
+        <!-- set camera position-->
+        <a-camera position="10 20 30"></a-camera>
+        <!-- seted black sky plane-->
+        <a-sky color="#FFCCCC"></a-sky>
+        <!--set bar container-->
+        <a-entity id="bars"></a-entity>
+        <!-- src for saperate js file -->
+        <script src="script.js"></script>
+    </a-scene>
+</body>
+
+</html>
